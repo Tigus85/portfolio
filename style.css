@@ -27,6 +27,7 @@ nav{
   display: flex;
   justify-content: center;
   padding: 0.2em ;
+  z-index: 1;
   
 }
 
@@ -97,11 +98,8 @@ span{
 /* section a propos */ 
 
 
-img{
-  width: 400px;
-  height: 400px;
-  border-radius: 50%;
-}
+
+
 
 #proposSection{
   display: flex;
@@ -115,27 +113,55 @@ img{
 
 #proposDiv{
   display: flex;
-  justify-content: center
+  flex-direction: row;
+  justify-content: center;
+  font-size: 1.5em;
+  
 }
 
 #proposText{
   display: flex;
   flex-direction: column;
-
   margin-left: 3em;
-  
 }
 
-#proposImg{
+
+#flipImg{
   display: flex;
   flex-direction: column;
   
+  transition: transform 1.5s;
+  transform-style: preserve-3d;
 }
 
-#proposImg div div{
-  margin: 1em;
-  font-size:1em;
+img{
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
 }
+
+#photo{
+  transform: rotateY(180deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+}
+
+#figurine{
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+#flipImg:hover{
+  transform: rotateY(180deg);
+}
+
+#textCard{
+  margin-top: 2em;
+}
+
+
 
 strong{
   font-weight: 900;
@@ -196,3 +222,4 @@ button{
   display: flex;
   width: 100%;
 }
+
