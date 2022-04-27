@@ -220,6 +220,59 @@ button{
 #skills{
   background-color:#EBEBEB ;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
+  padding-top: 5em;
+  margin-bottom: 5em;
+  font-weight: 300;
+  font-size: 1.5em;
 }
+
+#skills h4{
+  color:#9B59B6;
+}
+
+.cardWithSymbol{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.big{
+  font-size: 15rem;
+  
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  
+
+  width: 50%;
+  background-color: white;
+  box-shadow: 5px 10px #333 ;
+  border-radius: 10px;
+  margin: 5em;
+  padding: 2em;
+}
+
+.card p{
+  width: 60%;
+  margin-left: 2em;
+}
+
+.card div{
+ margin-left: 2em;
+ margin-right: 2em;
+}
+
+.note{
+  display: flex;
+  justify-content: space-between;
+}
+
+progress{
+
+} 
 
