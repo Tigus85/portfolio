@@ -95,6 +95,10 @@ span{
   color:#E74C3C ;
 }
 
+.fa-screwdriver-wrench:hover{
+  color: #268160;
+}
+
 /* section a propos */ 
 
 
@@ -223,14 +227,24 @@ button{
   flex-direction: column;
   align-items: center;
   width: 100%;
-  padding-top: 5em;
+  padding-top: 3em;
   margin-bottom: 5em;
   font-weight: 300;
   font-size: 1.5em;
 }
 
-#skills h4{
+
+
+#titleFront{
   color:#9B59B6;
+}
+
+#titleBack{
+  color: #3498DB;
+}
+
+#titleSofiware{
+  color: #268160;
 }
 
 #skillsWithoutTitle{
@@ -258,18 +272,23 @@ button{
   background-color: white;
   box-shadow: 5px 10px #333 ;
   border-radius: 10px;
-  margin: 2em;
-  padding: 2em;
+  margin: 0.5em 2em 2em 2em;
+  padding: 1em 2em 1em 2em;
 }
 
 .card p{
-  width: 60%;
+  width: 100%;
   margin-left: 2em;
 }
 
-.card div{
+.card h4{
+  margin: 0.5em 2em 0.5em 2em;
+}
+
+.grpNote{
  margin-left: 2em;
  margin-right: 2em;
+
 }
 
 .note{
