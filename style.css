@@ -16,6 +16,10 @@ main{
   align-items: center;
 }
 
+section{
+  font-size: 1.5em;
+}
+
 
 /* Barre de navigation*/
 nav{
@@ -230,7 +234,7 @@ button{
   padding-top: 3em;
   margin-bottom: 5em;
   font-weight: 300;
-  font-size: 1.5em;
+  
 }
 
 
@@ -270,7 +274,7 @@ button{
 
   width: 50%;
   background-color: white;
-  box-shadow: 5px 10px #333 ;
+  box-shadow: 5px 10px #565656 ;
   border-radius: 10px;
   margin: 0.5em 2em 2em 2em;
   padding: 1em 2em 1em 2em;
@@ -296,5 +300,37 @@ button{
   justify-content: space-between;
 }
 
+/* Parcours */ 
+
+#journey{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#journey h3 {
+  align-self: center;
+}
+
+
+.carJourney{
+  background-color: #3d7902;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.carJourney h4{
+  font-size: 4rem;
+  margin: 0;
+  
+}
+
+.carJourney h4 span{
+  font-size: 2rem;
+  text-transform: uppercase;
+}
 
 
