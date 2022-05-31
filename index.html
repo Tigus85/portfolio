@@ -16,8 +16,8 @@
       <a href="#proposSection">à propos</a>
       <a href="#skills">Compétences</a>
       <a href="#journey">Parcours</a>
-      <a href="#">Réalisation</a>
-      <a href="#">Contact</a>
+      <!-- <a href="#">Réalisation</a> -->
+      <a href="#contact">Contact</a>
     </div>
   </nav>
 
@@ -70,7 +70,7 @@
         </div>
       </div>
       <div id="boutons">
-          <button id="contactMe">Me Contacter</button>
+          <a href="#contact"><button id="contactMe" formaction="#contact">Me Contacter</button></a>
           <button id="download" type="submit" onclick="window.open('./files/CV Nicolas SWIGON.pdf')">Télécharger mon CV</button>
       </div>
     </section>
@@ -183,73 +183,114 @@
     </section>
     <section id="journey">
       <h3>Parcours</h3>
-      <div class="carJourney">
-        <h4>
-          <i class="fa-solid fa-graduation-cap"></i>
-          <span> Développeur web full-stack </span> 
-        </h4>
-        <ul>
-          
-            <li>Greta sud Champagne</li>
-          <ul>
-            <li>Gestion de projet</li>
-            <li>Base du Web & et Web</li>
-            <li>Référencement et Accessibilité</li>
-            <li>HTML / CSS</li>
-            <li>JavaScript</li>
-            <li>Wordpress</li>
-            <li>Bases de données</li>
-            <li>Back-end</li>
-            <li>Anglais Professionel</li>
-
-          </ul>
-          
-        </ul>
-        
-        
-      </div>
-
-      <div class="carJourney">
-        <h4>
-          <i class="fa-solid fa-toolbox"></i>
-          <span>Parcours Professionel</span>
-        </h4>
-        <ul>
-          <li>Electricien, 09/2006 - 12/2009</li>
+      
+      <div class="cardAndTime">
+        <div class="timeline"></div>
+        <div class="cardJourney"> 
+          <h4>
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span> Développeur web full-stack </span> 
+          </h4>
+          <ul>       
+              <li>Greta sud Champagne</li>
             <ul>
-              <li>Intérim Adecco - Troyes - Intérim (Principal mission)</li>
-              <ul>
-                <li>AMCI Février à Mars 2008</li>
-                <li>Kolher Février à Décembre 2007</li>
-              </ul>
+              <li>Gestion de projet</li>
+              <li>Base du Web & et Web</li>
+              <li>Référencement et Accessibilité</li>
+              <li>HTML / CSS</li>
+              <li>JavaScript</li>
+              <li>Wordpress</li>
+              <li>Bases de données</li>
+              <li>Back-end</li>
+              <li>Anglais Professionel</li>
             </ul>
-          <li>Hotlineur, 12/2009 - 10/2017</li>
-          <ul>
-            <li>Sitel - Troyes - CDI</li>
           </ul>
-          <li>Magasinier, 10-2017 - 12-2022</li>
-          <ul>
-            <li>D3E - St Savine - CDI</li>
-          </ul>
-        </ul>
+        </div>
       </div>
 
-      <div class="carJourney">
-        <h4>
-          <i class="fa-solid fa-school"></i>
-          <span>Parcours Scolaire</span>
-        </h4>
-        <ul>
+      <div class="cardAndTime">
+        <div class="timeline"></div>
+        <div class="cardJourney">
+          <h4>
+            <i class="fa-solid fa-toolbox"></i>
+            <span>Parcours Professionel</span>
+          </h4>
           <ul>
-            <li>Groupe Saint-Joseph La Salle - Troyes</li>
-            <li>CAP et BEP: Electrotechnique, 09/2000 - 06/2002</li>
-            <li>BAC PRO : Equipements et Installations Electriques, 09/2002 - 06/2004</li>
-            <li>BTS CIRA : Contrôle Industriel de Régulation et d'Automatisme, 09/2004 - 06/2006</li>
+            <li>Electricien, 09/2006 - 12/2009</li>
+              <ul>
+                <li>Intérim Adecco - Troyes - Intérim (Principal mission)</li>
+                <ul>
+                  <li>AMCI Février à Mars 2008</li>
+                  <li>Kolher Février à Décembre 2007</li>
+                </ul>
+              </ul>
+            <li>Hotlineur, 12/2009 - 10/2017</li>
+            <ul>
+              <li>Sitel - Troyes - CDI</li>
+            </ul>
+            <li>Magasinier, 10-2017 - 12-2022</li>
+            <ul>
+              <li>D3E - St Savine - CDI</li>
+            </ul>
           </ul>
-        </ul>
+        </div>
+      </div>
 
+      <div class="cardAndTime">
+        <div class="timeline"></div>
+        <div class="cardJourney">
+          <h4>
+            <i class="fa-solid fa-school"></i>
+            <span>Parcours Scolaire</span>
+          </h4>
+          <ul>
+            <ul>
+              <li>Groupe Saint-Joseph La Salle - Troyes</li>
+              <li>CAP et BEP: Electrotechnique, 09/2000 - 06/2002</li>
+              <li>BAC PRO : Equipements et Installations Electriques, 09/2002 - 06/2004</li>
+              <li>BTS CIRA : Contrôle Industriel de Régulation et d'Automatisme, 09/2004 - 06/2006</li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+    <section id="contact">
+      <div id="contactTitle">
+        <h3>Contactez-Moi</h3>
+        <div id="contactSubTitle">
+          <p>Développeur full-stack</p>
+          <i class="fa-solid fa-circle"></i>
+          <p>Développeur front-end</p>
+          <i class="fa-solid fa-circle"></i>
+          <p>Intégrateur web</p>
+        </div>
+      </div>
+      <div id="boxContact">
+        <div class="box  box-tel">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+          <p>06 12 73 33 85</p>
+        </div>
+        <div class="box box-mail">
+          <i class="fa-solid fa-envelope"></i>
+          <p>swigon.nicolas@gmail.com</p>
+        </div>
+        <div class="box box-town">
+          <i class="fa-solid fa-map"></i>
+          <p>sur Troyes</p>
+        </div>
       </div>
     </section>
+
+    <footer>
+      <div id="iconeFooter">
+        <a href="https://www.linkedin.com/in/nicolas-swigon-ab72341b1/"  target="_blank"><i class="fa-brands fa-linkedin-in footerRound"></i></a>
+        <a href="./files/CV Nicolas SWIGON.pdf"  target="_blank"><i class="fa-solid fa-print footerRound"></i></a>
+        <a href="https://github.com/Tigus85"  target="_blank" ><i class="fa-brands fa-github footerRound"></i></a>    
+      </div>
+      <div>Nicolas SWIGON <i class="fa-solid fa-copyright"></i> 2022</div>
+      <div>Tous droits réservés</div>
+    </footer>
   </main>
 
   <script src="https://kit.fontawesome.com/703f43b48a.js" crossorigin="anonymous"></script>
